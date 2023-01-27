@@ -4,7 +4,11 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <script src="script.js"></script>
+    <script>
+        if (!localStorage.getItem("auth") == "true") {
+            window.location.pathname = "signin.html"
+        }
+    </script>
     <title>MathGems</title>
     <link rel="icon" type="image/x-icon" href="https://mathlibs.onrender.com/static/favicon.ico">
     <meta property="og:title" content="Play unblocked games online" />
@@ -15,7 +19,7 @@
     <meta name="theme-color" content="var(--bgColor)">
 </head>
 
-<body onload="return onload()" onbeforeunload="return onbeforeunload()">
+<body>
     <!--Page Content Below-->
     <img id="userPhoto" class="animated rubberBand fast" src="https://mathlibs.onrender.com/static/favicon.ico">
     <h1 class="animated jello game_title">Unblocked Games</h1>
