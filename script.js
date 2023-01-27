@@ -7,4 +7,6 @@ if (!localStorage.getItem("auth") == "true") {
     }
     
 }
-onbeforeunload((() => {localStorage.setItem("isOnWebsite", "false")})); 
+function onbeforeunload() {
+    localStorage.setItem("isOnWebsite", "false")
+} 

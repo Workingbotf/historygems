@@ -15,10 +15,9 @@
     <meta name="theme-color" content="var(--bgColor)">
 </head>
 
-<body>
+<body onbeforeunload="return onbeforeunload()">
     <!--Page Content Below-->
-    <img id="userPhoto" class="animated rubberBand fast" src="https://mathlibs.onrender.com/static/favicon.ico"
-        alt="Your Name's Photo">
+    <img id="userPhoto" class="animated rubberBand fast" src="https://mathlibs.onrender.com/static/favicon.ico">
     <h1 class="animated jello game_title">Unblocked Games</h1>
     <div id="links" class="animated fadeInLeft delay-1s games">
         <div class="game_title"><input placeholder="Search" id="search" class="search" onkeyup="search_it()"
