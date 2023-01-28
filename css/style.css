@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
 :root {
-    --bgColor:#1C1C1C;
+    --bgColor: rgba(0, 119, 255, 0.488);
     --accentColor: #E6E6E6;
     --bgColorg:#000000;
     --accentColorg: #d4af37;
@@ -16,6 +16,7 @@
 }
 
 html{
+    
     scroll-behavior: smooth
 }
 .box-image{
@@ -32,7 +33,7 @@ html{
   border-radius: 5px;
 }
 body{
-    background-color: var(--bgColor);
+    background: var(--bgColor);
 }
 
 #userPhoto{
