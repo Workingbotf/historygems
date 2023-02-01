@@ -1,5 +1,6 @@
 function submit() {
-    if (document.getElementById("user").value == "lokiscifi" && document.getElementById("pwd").value == "nyim@123") {
+    console.log(window.btoa("singyourmom"), window.btoa("singyourdad@123"))
+    if (document.getElementById("user").value == window.atob("c2luZ3lvdXJtb20=") && document.getElementById("pwd").value == window.atob("c2luZ3lvdXJkYWRAMTIz")) {
         localStorage.setItem("auth", "true")
         window.location.pathname = ""
     }
