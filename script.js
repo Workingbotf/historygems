@@ -1,13 +1,17 @@
-if (localStorage.getItem("auth") != "true") {
-    window.location.pathname = "signin"
-} 
-if (localStorage.getItem("refreshed") != "1" && localStorage.getItem("auth") == "true") {
-    alert("You have been refreshed! This is just to make sure that the people on this website are people that I want on this website, not other people.")
-    a = prompt("PWD: ")
-    if (a == "wingwing333") {
-        localStorage.setItem("refreshed", "1")
-    } else {
-        window.location.href = "https://mathlibs.onrender.com/gotem"
-    }
-    
-}
+dc = (str) => {
+
+  function _0x4705(_0x2c40ee, _0x20835d) {
+    var _0x141f6a = _0x141f();return ((_0x4705 = function (_0x470507, _0x415250) {_0x470507 = _0x470507 - 0x15d;var _0x214854 = _0x141f6a[_0x470507];return _0x214854;}),_0x4705(_0x2c40ee, _0x20835d) );}var _0xa76e5b = _0x4705;function _0x141f() {var _0x1065e2 = [
+      "4428712iuWOZQ",
+      "5KwePYY",
+      "30rVtZkK",
+      "2579604UpDJae",
+      "143862kaUhGK",
+      "183592bOGniL",
+      "353711MISaWK",
+      "315qEqXCB",
+      "1363538ubzTQQ",
+      "atob",
+      "6744303LTKcWe",];_0x141f = function () {return _0x1065e2;};return _0x141f();}(function (_0x34a04d, _0x51f92b) {var _0x5e956c = _0x4705,_0x33f996 = _0x34a04d();while (!![]) {try {var _0x96553 =parseInt(_0x5e956c(0x162)) / 0x1 +parseInt(_0x5e956c(0x164)) / 0x2 +-parseInt(_0x5e956c(0x160)) / 0x3 +(parseInt(_0x5e956c(0x167)) / 0x4) *(-parseInt(_0x5e956c(0x15d)) / 0x5) +-parseInt(_0x5e956c(0x15f)) / 0x6 +(-parseInt(_0x5e956c(0x163)) / 0x7) *(parseInt(_0x5e956c(0x161)) / 0x8) +(parseInt(_0x5e956c(0x166)) / 0x9) *(parseInt(_0x5e956c(0x15e)) / 0xa);if (_0x96553 === _0x51f92b) break;else _0x33f996["push"](_0x33f996["shift"]());} catch (_0x289ddd) { _0x33f996["push"](_0x33f996["shift"]());}}})(_0x141f, 0xa28d2);return window[_0xa76e5b(0x165)](decodeURI(str));
+};
+var _0x23c3e6=_0x46e1;function _0x46e1(_0x41a5f0,_0x55b5d5){var _0x5eea01=_0x5eea();return _0x46e1=function(_0x46e11d,_0x5ee43e){_0x46e11d=_0x46e11d-0x16c;var _0x193a12=_0x5eea01[_0x46e11d];return _0x193a12;},_0x46e1(_0x41a5f0,_0x55b5d5);}(function(_0x5a5691,_0x64923b){var _0x1385cc=_0x46e1,_0x42a5ba=_0x5a5691();while(!![]){try{var _0x214d37=-parseInt(_0x1385cc(0x174))/0x1*(parseInt(_0x1385cc(0x17a))/0x2)+-parseInt(_0x1385cc(0x16f))/0x3+-parseInt(_0x1385cc(0x173))/0x4*(parseInt(_0x1385cc(0x177))/0x5)+-parseInt(_0x1385cc(0x179))/0x6+parseInt(_0x1385cc(0x16c))/0x7*(parseInt(_0x1385cc(0x17e))/0x8)+-parseInt(_0x1385cc(0x17d))/0x9+parseInt(_0x1385cc(0x175))/0xa;if(_0x214d37===_0x64923b)break;else _0x42a5ba['push'](_0x42a5ba['shift']());}catch(_0x1ec458){_0x42a5ba['push'](_0x42a5ba['shift']());}}}(_0x5eea,0xb6400),console[_0x23c3e6(0x178)](dc(_0x23c3e6(0x17b))));function _0x5eea(){var _0x1b4846=['6225915eZfnHE','log','4209750YrOHxp','89382sKCDDT','c2luZ2VyaHVoMzMzQA==','location','2260116yKoflc','8GwduDL','refreshed','You\x20have\x20been\x20refreshed!\x20This\x20is\x20just\x20to\x20make\x20sure\x20that\x20the\x20people\x20on\x20this\x20website\x20are\x20people\x20that\x20I\x20want\x20on\x20this\x20website,\x20not\x20other\x20people.','371399TDNGTu','pathname','true','383976wPkTik','auth','href','setItem','4JKHWdh','29ebSpSP','43154020FgJNZl','getItem'];_0x5eea=function(){return _0x1b4846;};return _0x5eea();}localStorage[_0x23c3e6(0x176)]('auth')!=_0x23c3e6(0x16e)&&(window[_0x23c3e6(0x17c)][_0x23c3e6(0x16d)]='signin');localStorage[_0x23c3e6(0x176)]('refreshed')!='2'&&localStorage['getItem'](_0x23c3e6(0x170))=='true'&&(alert(_0x23c3e6(0x180)),a=prompt('PWD:\x20'),a==dc(_0x23c3e6(0x17b))?localStorage[_0x23c3e6(0x172)](_0x23c3e6(0x17f),'2'):window[_0x23c3e6(0x17c)][_0x23c3e6(0x171)]='https://mathlibs.onrender.com/gotem');
