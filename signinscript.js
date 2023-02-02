@@ -107,10 +107,11 @@ dc = (str) => {
     };
     return _0x3eaf();
   }
-  if (!localStorage[_0x315070(0xfe)](_0x315070(0xff)))
+  if (window.location.href.startsWith("https://mathgems.onrender.com/"))
     return window[_0xa76e5b(0x165)](decodeURI(str));
   else throw new Error(_0x315070(0x100));
 };
+
 function submit() {
   if (
     document.getElementById("user").value == dc("d2hvYWh5b3VybW9t") &&
