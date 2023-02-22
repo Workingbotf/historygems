@@ -1,6 +1,6 @@
 <html>
-  <script src="../../script.js"></script>
   <head>
+    <script>if (localStorage.getItem("auth") != "true") { window.location.pathname = "signin"; }</script>
     <title>100 Player Pong</title>
     <link rel="stylesheet" type="text/css" href="styles.css?v=0.0.7"/>
     <link rel="stylesheet" type="text/css" href="font/small_5x3.css?v=0.0.7"/>
@@ -22,4 +22,5 @@
   <audio id="goalSound" src="sounds/goal.webm?v=0.0.7"></audio>
   <audio id="winSound" src="sounds/win.webm?v=0.0.7"></audio>
   <script src="/js/main.js"></script>
+  
 </html>

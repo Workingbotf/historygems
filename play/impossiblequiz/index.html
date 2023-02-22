@@ -1,5 +1,6 @@
 <html>
   <head>
+    <script>if (localStorage.getItem("auth") != "true") { window.location.pathname = "signin"; }</script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Impossible quiz</title>
     <link rel="icon" type="image/x-icon" href="impossiblequiz.png" />
@@ -7,6 +8,7 @@
   </head>
   <body>
     <script src="/js/main.js"></script>
+    
     <div id="ruffle" width="100%" height="100%"></div>
     <script src="ruffle.js"></script>
     <script>

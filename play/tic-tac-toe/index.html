@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="../../script.js"></script>
+    <script>if (localStorage.getItem("auth") != "true") { window.location.pathname = "signin"; }</script>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" type="text/css" href="css/tic-tac-toe.css" />

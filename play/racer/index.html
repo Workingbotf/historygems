@@ -2,7 +2,7 @@
 
 <html>
 <head>
-  <script src="../../script.js"></script>
+  <script>if (localStorage.getItem("auth") != "true") { window.location.pathname = "signin"; }</script>
   <title>Javascript Racer</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <link href="common.css" rel="stylesheet" type="text/css" />

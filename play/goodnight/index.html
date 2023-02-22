@@ -2,6 +2,7 @@
 <html>
   <title>GOODNIGHT</title>
   <head>
+    <script>if (localStorage.getItem("auth") != "true") { window.location.pathname = "signin"; }</script>
     <script src="./vendor/phaser/phaser.min.js"></script>
     <script src="./vendor/howler/howler.min.js"></script>
     <script src="./vendor/libgme/libgme.js"></script>
@@ -9,6 +10,7 @@
     <script src="index.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="/js/main.js"></script>
+    
   </head>
   <body>
     Controls: X to jump, Z to chill, arrow keys to move, ENTER to start/pause.

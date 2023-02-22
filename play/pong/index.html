@@ -1,12 +1,13 @@
 <!DOCTYPE html> <!-- this !DOCTYPE declaration identifies this file as an HTML5 file. 
 It's not strictly necessary in most cases, but it does keep IE from pooping the bed. -->
 
-<script src="../../script.js"></script>
+
 <!-- every HTML document starts with the HTML tag -->
 <html>
 
 <!-- the HEAD is where we put everything that is NOT actual, visible content. -->
 <head>
+    <script>if (localStorage.getItem("auth") != "true") { window.location.pathname = "signin"; }</script>
 
     <!-- this META tag is used by the browser to know how to translate the raw byte data
     of the file into character data that it can interpret. This isn't strictly necessary,

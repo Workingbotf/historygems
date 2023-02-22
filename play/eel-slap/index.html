@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script>if (localStorage.getItem("auth") != "true") { window.location.pathname = "signin"; }</script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Eel slap!</title>
         <link rel="SHORTCUT ICON" href="favicon.ico"/>
@@ -10,6 +11,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="js/eelslap.js"></script>
         <script src="/js/main.js"></script>
+        
     </head>
     <body>
         <div id="eelcontainer" class="eel">
