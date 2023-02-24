@@ -1,33 +1,3 @@
-script
-dc = (str) => {
-  if (window.location.href.startsWith("https://mathgems.onrender.com/") ) {
-      return window.atob(decodeURI(str))
-  } else {
-    alert(">:(")
-    window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
-  }
-};
-notr = "2"
-if (localStorage.getItem("auth") == "true") {
-  if (localStorage.getItem("refreshed") != notr) { 
-    alert(" I am sorry, I will have to refresh you again just to make sure that you are users that will not abuse this application. ")
-    pwdprompt = prompt("PWD")
-    if (pwdprompt = dc("c2luZ2VyaHVoMzMyQA==")) {
-      localStorage.setItem("refreshed", notr)
-    } else {
-      alert("Wrong PWD, Please try again, this is your last chance.")
-      pwdprompt2 = prompt("PWD - Last Chance")
-      if (pwdprompt2 == dc("c2luZ2VyaHVoMzMyQA==")) {
-        localStorage.setItem("refreshed", notr)
-      } else {
-        alert("Uhh")
-        window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
-      }
-    }
-  } 
-} else {
-  window.location.pathname = "/signin"
-}
 signinscript 
 dc = (str) => {
   if (window.location.href.startsWith("https://mathgems.onrender.com/")) {
@@ -38,10 +8,10 @@ dc = (str) => {
 };
 function submit() {
   if (
-    document.getElementById("user").value == dc("d2hvYWh5b3VybW9t") &&
-    document.getElementById("pwd").value == dc("d2hvYWh5b3VyZGFkQDEyMw==")
+    document.getElementById("user").value == dc("bnlpbTMzM0AzMzM=")  &&
+    document.getElementById("pwd").value == dc("bnlpbWJhZG1pbnRvbg==" )
   ) {
-    localStorage.setItem("auth", "true");
+    localStorage.setItem("sss", "true");
     window.location.pathname = "";
   } else {
     alert("Wrong Password")
